@@ -11,15 +11,15 @@ Output
 
 The Output will look something like this:
 
-  [            #####       ]
+    [            #####       ]
 
 or
 
-  (  ooooooooooooooo                   )
+    (  ooooooooooooooo                   )
 
 or 
 
-  |                      =====  |
+    |                      =====  |
 
 or whatever you specify as parameters ;) 
 
@@ -32,18 +32,18 @@ something. But this is at least your part ;)
 
 Next you can specify your parameters (if you want to!)
 
-  ./loading.sh maximal_size_of_bar speed_in_seconds first_delimiter fill_chars last_delimiter
+    ./loading.sh maximal_size_of_bar speed_in_seconds first_delimiter fill_chars last_delimiter
 
 For Example:
 
-  ./loading.sh 50 0.02 [ "######" ]
+    ./loading.sh 50 0.02 [ "######" ]
 
 Thats all. But keep an eye on special characters in Bash! Its possible that
 everything implodes. Use \( for ( for example. 
 
 At least you can start the script without any parameters:
 
-  ./loading.sh
+    ./loading.sh
 
 Hint
 ====
