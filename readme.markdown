@@ -39,7 +39,7 @@ For Example:
     ./loading.sh 50 0.02 [ "######" ]
 
 Thats all. But keep an eye on special characters in Bash! Its possible that
-everything implodes. Use \( for ( for example. 
+everything implodes. Use \\( for ( or "#" for # for example. 
 
 At least you can start the script without any parameters:
 
